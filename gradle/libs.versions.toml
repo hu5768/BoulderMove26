@@ -14,7 +14,7 @@ mediapipe = "0.10.9"
 accompanist = "0.34.0"
 lifecycleViewModel = "2.9.4"
 coroutines = "1.8.0"
-ffmpegKit = "6.0-LTS"
+ffmpegKit = "5.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -38,7 +38,7 @@ mediapipe-tasks-vision = { module = "com.google.mediapipe:tasks-vision", version
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewModel" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
-ffmpeg-kit-full = { module = "com.arthenica:ffmpeg-kit-full", version.ref = "ffmpegKit" }
+ffmpeg-kit-https = { module = "com.arthenica:ffmpeg-kit-https", version.ref = "ffmpegKit" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

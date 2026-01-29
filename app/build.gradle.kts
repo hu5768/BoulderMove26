@@ -63,5 +63,5 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.accompanist.permissions)
-    implementation(libs.ffmpeg.kit.full)
+    implementation(libs.ffmpeg.kit.https)
 }
